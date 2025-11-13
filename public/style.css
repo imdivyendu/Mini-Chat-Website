@@ -1,0 +1,52 @@
+body {
+    margin-left: 20px;
+    background-color: palegreen;
+}
+.chat {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_page_btn {
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.msg_btn {
+    display: flex;
+    column-gap: 10px;
+}
+
+.new {
+    display: grid;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.new_from {
+    display: inline;
+    margin: 10px auto;
+}
+
+.new_to {
+    display: inline;
+    margin: 10px auto;
+}
+
+.edit_div {
+    margin: 20px auto;
+    text-align: center;
+}
